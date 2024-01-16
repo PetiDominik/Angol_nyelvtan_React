@@ -2,7 +2,7 @@
 import React, { useState } from 'react';
 import DataModel from "../model/DataModel";
 import {szenvedoMondatok} from "../model/angol";
-import Form from "../components/form/Form";
+import Form from "../components/form/FormChoose";
 
 const model = new DataModel(szenvedoMondatok);
 let questionIndex = 0;

@@ -11,7 +11,6 @@ export default function Form(props) {
     let questionDatas = props.question;
     const [isAnswerCorrect, setAnswerCorrect] = useState(false);
 
-    console.log(isAnswerCorrect);
     function checkAnswerIsCorrect(answer) {
         tryCount++;
         if (answer === questionDatas.correctAnswer) {
